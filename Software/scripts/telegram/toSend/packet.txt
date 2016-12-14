@@ -1,0 +1,10 @@
+
+MAC Destination: ffffffffffff
+MAC Source: e4d53d3710d5
+Type: 0800
+Traffic class: 00
+Flags: 00
+Time stamp: 244403345
+Latitude: 6dd24403
+Longitude: e5682200
+Speed: 0

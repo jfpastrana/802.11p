@@ -1,0 +1,46 @@
+# Script template for daemons
+#!/bin/sh
+
+program=/home/wlanp/scripts/usb #Script path to launch
+startup=$program/bin/startup_usb.sh #código para iniciar el programa
+shutdown=$program/bin/shutdown_usb.sh #código para parar el programa
+
+start(){
+echo -n $"Starting service: "
+$startup
+RETVAL=$?
+echo
+}
+
+stop(){
+echo -n $"Stopping service: "
+$shutdown
+RETVAL=$?
+echo
+}
+
+restart(){
+stop
+sleep 10
+start
+}
+
+# Depending on the input argument
+#start - stop - restart 
+case "$1" in
+start)
+start
+;;
+stop)
+stop
+;;
+restart)
+restart
+;;
+*)
+echo $"Usar: $0 {start|stop|restart}"
+exit 1
+esac
+
+exit 0
+
