@@ -5,6 +5,7 @@ difference=diff(seconds);
 jump=find(difference>115);
 tmp = [1 jump'];
 indices = tmp';
+power = power*(-1);
 
 n_test = size(indices); 
 for i=1:n_test(1,1)-1
@@ -36,7 +37,7 @@ title('Maximum likelihood of power received per power transmission selected and 
 xlabel('Power selected (dBm)from 3dBm until 17dBm');
 ylabel('Power received (dBm)');
 
-%Calculamos ahora las gr·ficas de cada gaussina
+%Calculamos ahora las gr√°ficas de cada gaussina
 %figure
 %hold on
 subplot(1,2,2);
