@@ -11,12 +11,13 @@
 * **Summary of set up**: The main document of the proyect can be found in "Documentation" folder. This document is the final report wrote for this proyect.
 * **Configuration**: A short tutorial is explained in the file "/802.11p/Documentation/802.11p_guide.pdf". It explains how deploy the 802.11p standard in your Linux device. How to take the first steeps to install all the programs. 
 * **Dependencies**: The software dependencies are described in the file "/802.11p/Documentation/802.11p_guide.pdf".  
-* **How to run tests**: This part is explained in the chapter X of "802.11p standard and V2X applications on commercial Wi-Fi cards" thesis.
-* **Deployment instructions**: This part is explained in the chapter X of "802.11p standard and V2X applications on commercial Wi-Fi cards" thesis.
+* **How to run tests**: This part is explained in the chapter 5 of "802.11p standard and V2X applications on commercial Wi-Fi cards" thesis.
+* **Deployment instructions**: This part is explained in the chapter 3 of "802.11p standard and V2X applications on commercial Wi-Fi cards" thesis.
 * **Repository structure**: It is explained below how is divided the repository and where it can be found every interesting file.
   * Documentation
     * 802.11p_guide.pdf: A short view of how implement 802.11p standard in any Linux distribution.
-    * 802.11p_standard_and_V2X_applications.pdf: Final Master Thesis Report. 
+    * 802.11p_standard_and_V2X_applications.pdf: Final Master Thesis Report.
+    * Wireless_cards.pdf: Suitable Wi-Fi wireless cards with 802.11p
   * Real_ITS: ".pcap" files wich they store data from a real ITS station. Mainly, GeoNetwork, IVI, DENM and CAM protocols.
   * Software: The programs that have been developed during the project.
     * Channel_switching:
