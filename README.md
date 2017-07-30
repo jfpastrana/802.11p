@@ -55,7 +55,7 @@
 
 ### Future work ###
 
-* Nowadays, the most complete and develope proyect to continue this thesis is [OPENC2X] (http://www.ccs-labs.org/software/openc2x). It continue implementing the rest of the ITS G5 stack and it can be tested in real environments.
+* Nowadays, the most complete and develope proyect to continue this thesis is [OPENC2X](http://www.ccs-labs.org/software/openc2x). It continue implementing the rest of the ITS G5 stack and it can be tested in real environments.
 * The seventh chapter of "802.11p standard and V2X applications on commercial Wi-Fi cards" thesis described some ideas or next steeps that can be developed in the future.
 ### Who do I talk to? ###
 
